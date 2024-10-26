@@ -10,6 +10,7 @@ module me.ryanunternahrer.weather {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
     requires com.almasb.fxgl.all;
+    requires java.net.http;
 
     opens me.ryanunternahrer.weather to javafx.fxml;
     exports me.ryanunternahrer.weather;
